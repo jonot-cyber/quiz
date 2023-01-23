@@ -1,0 +1,42 @@
+body {
+    font-family: cursive;
+    font-size: 2em;
+    background-color: red;
+}
+
+.container {
+    background-color: white;
+    border: 10px dotted blue;
+    padding: 2em;
+    margin: 2em;
+}
+
+a {
+    color: greenyellow;
+}
+
+.fancy {
+    color: purple;
+    transform-origin: 25% 0%;
+    opacity: 0.5;
+    font-size: 0.7em;
+    animation: spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.frog {
+    float: right;
+    transform: rotate(15deg);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
